@@ -6,9 +6,9 @@ the connections between instances and users.
 
 ## Requirements
 
-Python 2 (tested with 2.7.10)
-tldextract (tested with 1.6)
-rdflib (tested with 4.2.0)
+* Python 2 (tested with 2.7.10)
+* tldextract (tested with 1.6)
+* rdflib (tested with 4.2.0)
 
 ## Usage
 
@@ -17,8 +17,9 @@ Optionally give it a maximum number of FOAF files to fetch and parse (defaults t
 
 `python2 ./graph.py http://example.org/profile --max=5`
 
-To stop the script before it reached "max", press Ctrl+C. The script should terminate
-gracefully and generate a .gexf file with the data it had time to collect.
+To stop the script before it reached "max", press Ctrl+C.  
+The script should terminate gracefully and generate a .gexf file with the data
+it had time to collect.
 
 Once the data collection is done, run the following to convert the data to json:  
 `python2 ./extlib/InteractiveVis/server/gexf2Json.py out/graph.gexf out/data.json`
