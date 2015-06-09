@@ -1,0 +1,93 @@
+{
+    "search": {
+        "fulltext": true
+    }, 
+    "informationPanel": {
+        "imageAttribute": "Image File", 
+        "groupByEdgeDirection": false
+    }, 
+    "features": {
+        "hoverBehavior": "default", 
+        "search": true, 
+        "groupSelectorAttribute": "color"
+    }, 
+    "text": {
+        "more": "", 
+        "intro": "", 
+        "title": ""
+    }, 
+    "sigma": {
+        "drawingProperties": {
+            "hoverFontStyle": "bold", 
+            "fontStyle": "bold", 
+            "defaultLabelSize": 14, 
+            "defaultLabelHoverColor": "#fff", 
+            "activeFontStyle": "bold", 
+            "labelThreshold": 10, 
+            "defaultLabelBGColor": "#ddd", 
+            "defaultHoverLabelBGColor": "#002147", 
+            "defaultLabelColor": "#000", 
+            "defaultEdgeType": "curve"
+        }, 
+        "mouseProperties": {
+            "minRatio": 0.75, 
+            "maxRatio": 20
+        }, 
+        "graphProperties": {
+            "minNodeSize": 1, 
+            "maxEdgeSize": 0.5, 
+            "maxNodeSize": 7, 
+            "minEdgeSize": 0.2
+        }
+    }, 
+    "version": "1.0", 
+    "type": "network", 
+    "logo": {
+        "text": "", 
+        "link": "", 
+        "file": ""
+    }, 
+    "data": "data.json", 
+    "legend": {
+        "nodeLabel": "A OStatus account.",
+        "edgeLabel": "A subscription between two accounts",
+        "colorLabel": "Colour represents an automatic grouping of users according to who they are most connected to."
+    },
+    "features": {
+        "search": true,
+        "hoverBehavior": "default",
+        "groupSelectorAttribute": "color"
+    },
+    "search":{
+    	"fulltext":true
+    },
+    "informationPanel": {
+        "groupByEdgeDirection": false,
+        "imageAttribute": "Image File"
+    },
+    "sigma": {
+    	"drawingProperties":{    
+			"defaultLabelColor": "#000",
+			"defaultLabelSize": 14,
+			"defaultLabelBGColor": "#ddd",
+			"defaultHoverLabelBGColor": "#002147",
+			"defaultLabelHoverColor": "#fff",
+			"labelThreshold": 10,
+			"defaultEdgeType": "curve",
+			"hoverFontStyle": "bold",
+			"fontStyle": "bold",
+			"activeFontStyle": "bold"
+		},
+		"graphProperties":{
+			"minNodeSize": 1,
+			"maxNodeSize": 7,
+			"minEdgeSize": 0.2,
+			"maxEdgeSize": 0.5
+		},		
+		"mouseProperties":{
+			"minRatio": 0.75, 
+			"maxRatio": 20
+		}
+    }
+    
+}

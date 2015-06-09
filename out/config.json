@@ -1,0 +1,56 @@
+{
+    "search": {
+        "fulltext": true
+    }, 
+    "informationPanel": {
+        "imageAttribute": "Image File", 
+        "groupByEdgeDirection": false
+    }, 
+    "features": {
+        "hoverBehavior": "default", 
+        "search": true, 
+        "groupSelectorAttribute": "color"
+    }, 
+    "text": {
+        "title": "chimo", 
+        "intro": "Geek.", 
+        "more": ""
+    }, 
+    "data": "data.json", 
+    "version": "1.0", 
+    "type": "network", 
+    "logo": {
+        "text": "chimo", 
+        "link": "http://sn.chromic.org/", 
+        "file": ""
+    }, 
+    "sigma": {
+        "drawingProperties": {
+            "hoverFontStyle": "bold", 
+            "fontStyle": "bold", 
+            "defaultLabelSize": 14, 
+            "defaultLabelHoverColor": "#fff", 
+            "activeFontStyle": "bold", 
+            "labelThreshold": 10, 
+            "defaultLabelBGColor": "#ddd", 
+            "defaultHoverLabelBGColor": "#002147", 
+            "defaultLabelColor": "#000", 
+            "defaultEdgeType": "curve"
+        }, 
+        "mouseProperties": {
+            "minRatio": 0.75, 
+            "maxRatio": 20
+        }, 
+        "graphProperties": {
+            "minNodeSize": 1, 
+            "maxEdgeSize": 0.5, 
+            "maxNodeSize": 7, 
+            "minEdgeSize": 0.2
+        }
+    }, 
+    "legend": {
+        "colorLabel": "Colour represents an automatic grouping of users according to who they are most connected to.", 
+        "edgeLabel": "A subscription between two accounts", 
+        "nodeLabel": "A OStatus account."
+    }
+}
